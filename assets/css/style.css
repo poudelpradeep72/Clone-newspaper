@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 50rem;
+    max-width: 100rem;
+    margin: 0rem 20rem;
+    border-left: 0.50em solid rgba(0, 0, 0, 0.932);
+    border-right: 0.50em solid black; 
+    padding: 1rem;
+}
+
+h1{
+    margin: 0rem 0rem 0rem 2rem;
+    border: 1rem;
+
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.list_item{
+    display: flex;
+    font-size: 2.10rem;
+    color: rebeccapurple;
+    font-family: 'Times New Roman', Times, serif;
+    border-style: ridge;
+    justify-content: space-between;
+}
+

@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100rem;
+    max-width: 100rem;
+    margin: 0rem 20rem;
+    border-left: 0.50em solid rgba(0, 0, 0, 0.932);
+    border-right: 0.50em solid black; 
+    padding: 1rem;
+}
+
+.contact_form{
+    font-size: 5em;
+    text-align: none;
+}
+
+input[type=text], input[type=number], input[type=email], input[type=message] {
+    width: 80%;
+    padding: 2em;
+    border: 1px solid rgb(26, 35, 66);
+    border-radius: 2px;
+}
+
+input[type=submit] {
+    color:green;
+    width: 80%;
+}
+
+.container{
+    padding: 20px;
+    background-color: aliceblue;    
+}
+

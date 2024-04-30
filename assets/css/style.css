@@ -11,6 +11,7 @@ body{
     border-left: 0.50em solid rgba(0, 0, 0, 0.932);
     border-right: 0.50em solid black; 
     padding: 1rem;
+    /* font-family: 'Times New Roman', Times, serif; */
     
 }
 
@@ -50,6 +51,10 @@ h1{
     margin: 2rem;
 }
 
+h2{
+    margin: 2em 0em 0em 0em;
+    font-size: 3em;
+}
 .main_part{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -61,7 +66,12 @@ h1{
 
 .second_p{
     font-size: 2em;
-    float: right;
+    text-align: justify;
+    margin: 1em;  
+}
+
+img{
+    float: left;
 }
 
 .investment_photo{
@@ -69,14 +79,42 @@ h1{
 }
 
 img{
-    margin: 1rem 0 0 2rem;
+    margin: 1rem 0 0 0;
+    width: 500px;
+    float: right;
 }
 
 .header_second{
     font-size: 2.50em;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serifs;
+    margin: 5em 0em 0em 0em;
+}
+
+.main_section{
+    font-size: 2em;
+    text-align: justify;
 }
 
 .article_first{
     font-size: 2em;
+    text-align: justify;
 }  
+
+.third_article{
+    font-size: 2em;
+    text-align: justify;
+    /* float: left; */
+    margin: 1rem 1rem 1rem 1rem;
+}
+.float_class{
+    float: left;
+}
+
+.investment_photo{
+    margin-left: 12em;
+    
+}
+
+/* .mountain_photo{
+    float: justify;
+} */

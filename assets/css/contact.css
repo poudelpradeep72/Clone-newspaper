@@ -23,11 +23,21 @@ input[type=text], input[type=number], input[type=email], input[type=message] {
     padding: 2em;
     border: 1px solid rgb(26, 35, 66);
     border-radius: 2px;
+    font-size: large;
 }
 
 input[type=submit] {
     color:green;
     width: 80%;
+    font-size: large;
+}
+
+textarea [name=message] {
+    width: 900%;
+}
+
+ button:nth-child(){
+    width: 900%;
 }
 
 .container{
@@ -35,3 +45,22 @@ input[type=submit] {
     background-color: aliceblue;    
 }
 
+
+.last_part{
+    font-family: 'Times New Roman', Times, serif;
+    color: green;
+    font-size: 2em;
+    text-align: center;
+    margin: 0rem 0rem 2rem 0rem;
+    font-weight: 900;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.footer_part{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+    text-align: center; 
+}

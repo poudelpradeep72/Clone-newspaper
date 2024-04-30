@@ -5,18 +5,14 @@
 }
 
 body{
-    height: 50rem;
+    height: 200rem;
     max-width: 100rem;
     margin: 0rem 20rem;
     border-left: 0.50em solid rgba(0, 0, 0, 0.932);
     border-right: 0.50em solid black; 
     padding: 1rem;
-}
-
-h1{
-    margin: 0rem 0rem 0rem 2rem;
-    border: 1rem;
-
+    /* font-family: 'Times New Roman', Times, serif; */
+    
 }
 
 ul{
@@ -27,12 +23,98 @@ a{
     text-decoration: none;
 }
 
+.heading_first{
+    text-align: center;
+    font-size: 4em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(138, 240, 42);
+    border-radius: 200%;
+}
+
+
 .list_item{
     display: flex;
-    font-size: 2.10rem;
+    font-size: 3rem;
     color: rebeccapurple;
     font-family: 'Times New Roman', Times, serif;
     border-style: ridge;
     justify-content: space-between;
+    margin: 1rem 0re 0rem 2rem;
+    line-break: 2rem;
 }
 
+h1{
+    color: rgba(19, 18, 18, 0.918);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 5rem;
+    margin: 2rem;
+}
+
+h2{
+    margin: 2em 0em 0em 0em;
+    font-size: 3em;
+}
+.main_part{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header_first{
+    font-size: 2.50em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.second_p{
+    font-size: 2em;
+    text-align: justify;
+    margin: 1em;  
+}
+
+img{
+    float: left;
+}
+
+.investment_photo{
+    width: 20rem;
+}
+
+img{
+    margin: 1rem 0 0 0;
+    width: 500px;
+    float: right;
+}
+
+.header_second{
+    font-size: 2.50em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serifs;
+    margin: 5em 0em 0em 0em;
+}
+
+.main_section{
+    font-size: 2em;
+    text-align: justify;
+}
+
+.article_first{
+    font-size: 2em;
+    text-align: justify;
+}  
+
+.third_article{
+    font-size: 2em;
+    text-align: justify;
+    /* float: left; */
+    margin: 1rem 1rem 1rem 1rem;
+}
+.float_class{
+    float: left;
+}
+
+.investment_photo{
+    margin-left: 12em;
+    
+}
+
+/* .mountain_photo{
+    float: justify;
+} */

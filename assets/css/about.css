@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 200rem;
+    max-width: 100rem;
+    margin: 0rem 20rem;
+    border-left: 0.50em solid rgba(0, 0, 0, 0.932);
+    border-right: 0.50em solid black; 
+    padding: 1rem;
+    /* font-family: 'Times New Roman', Times, serif; */
+    
+}
+
+
+img{
+    width: 800px;
+}
+
+.photo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1em;
+}

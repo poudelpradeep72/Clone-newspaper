@@ -1,9 +1,11 @@
+/*UNIVERSAL SELECTOR  */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* BODY PART */
 body{
     height: 100rem;
     max-width: 100rem;
@@ -13,27 +15,29 @@ body{
     
 }
 
+/* CONTACT FORM */
 .contact_form{
     font-size: 2em;
     text-align: none;
 }
 
+/* INPUT FORM */
 input[type=text], input[type=number], input[type=email], input[type=message] {
-    width: 20em;
-    padding: 3em;
+    width: 40em;
+    padding: 1em;
     border: 1px solid rgb(26, 35, 66);
-    border-radius: 2px;
     font-size: large;
-    max-height: 2rem;
-    margin: 2rem 2rem;
+    margin: 1rem 1.50rem 0 0;
 }
 
+/* INPUT  */
 input[type=submit] {
     color:green;
     width: 20%;
     font-size: large;
 }
 
+/* TEXT AREA */
 textarea [name=message] {
     width: 90%;
     margin: 20rem;
@@ -43,24 +47,26 @@ textarea [name=message] {
 
 
 
- button:nth-child(1){
+ /* button:nth-child(1){
     width: 900%;
     margin: 20rem;
-}
+} */
 
+/* PLACEHOLDER */
 :placeholder-shown{
     font-size: xx-large;
     font-family: 'Times New Roman', Times, serif;
     width: 20rem;
-   
+    padding: 5rem;
 }
 
+/* CONTAINER CLASS */
 .container{
     padding: 20px;
     background-color: aliceblue;    
 }
 
-
+/* LAST PART CLASS */
 .last_part{
     font-family: 'Times New Roman', Times, serif;
     color: green;
@@ -70,16 +76,19 @@ textarea [name=message] {
     font-weight: 900;
 }
 
+/* UNORDER LIST TAG */
 ul{
     list-style-type: none;
 }
 
+/*FOOTER PART*/
 .footer_part{
     font-family: 'Courier New', Courier, monospace;
     font-size: xx-large;
     text-align: center; 
 }
 
+/* BUTTON PART */
 .button-container{
     position: relative;
     width: 20rem;

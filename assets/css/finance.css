@@ -1,9 +1,11 @@
+/* UNIVERSAL SELECTOR */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* BODY PART */
 body{
     height: 150rem;
     max-width: 100rem;
@@ -13,39 +15,50 @@ body{
     padding: 1rem;
 }
 
+/* A TAG */
 a{
     text-decoration: none;
 }
 
+/* H1 HEADING */
 h1{
     text-align: center;
     font-size: 5em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+/* IMAGE  */
 img{
-    width: 1000px;
+    width: 550px;
     border-radius: 1rem;
+    margin: 0.50em 2em 0em 0.50em;
 }
 
+/* SECOND PART */
 .second_part{
     font-size: 2em;
 }
 
+/* ARTICLE NEWS */
 .article_news{
     font-size: 2em;
     text-align: justify;
     margin:1em 1em 1.50em 1em ;
 }
 
+/* LINKED */
 .linked{
     margin:2em 5em 5em 2em ;
     width: 15em;
     font-size: 2em;
     margin: 2em;
     text-align: center;
-    border: solid blueviolet;
+    /* border: solid blueviolet;
     border-radius: 10rem;
-    padding: 1em;
+    padding: 1em; */
 }
 
+/* NEPAL CLASS */
+.nepal_photo{
+    width: 2em;
+}

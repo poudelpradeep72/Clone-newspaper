@@ -1,3 +1,4 @@
+
 /*UNIVERSAL SELECTOR  */
 *{
     margin: 0;
@@ -7,34 +8,35 @@
 
 /* BODY PART */
 body{
-    height: 100rem;
-    max-width: 100rem;
-    margin: 0rem 20rem;
-    border-left: 0.50em solid rgba(0, 0, 0, 0.932);
-    border-right: 0.50em solid black; 
+    min-height: 100vh;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-size: 1rem;
+    border-left: 0.5em solid rgba(0, 0, 0, 0.932);
+    border-right: 0.5em solid black; 
     
+    
+}
+
+.contact_address{
+    font-size: 20em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /* CONTACT FORM */
 .contact_form{
-    font-size: 2em;
+    
     text-align: none;
 }
 
 /* INPUT FORM */
 input[type=text], input[type=number], input[type=email], input[type=message] {
-    width: 40em;
+    width: 100%;
     padding: 1em;
     border: 1px solid rgb(26, 35, 66);
     font-size: large;
     margin: 1rem 1.50rem 0 0;
-}
-
-/* INPUT  */
-input[type=submit] {
-    color:green;
-    width: 20%;
-    font-size: large;
 }
 
 /* TEXT AREA */
@@ -42,22 +44,27 @@ textarea [name=message] {
     width: 90%;
     margin: 20rem;
     font-family: 'Times New Roman', Times, serif;
-    font-size: xx-large
+    font-size: 3em;
 }
 
 
+/* button */
+ button{
+    height: 2em;
+    margin: 1em 0em;
+    background-color: rgb(194, 88, 26);
+    padding: 1em;
 
- /* button:nth-child(1){
-    width: 900%;
-    margin: 20rem;
-} */
+    
+}
 
 /* PLACEHOLDER */
 :placeholder-shown{
-    font-size: xx-large;
+    font-size: 1em;
     font-family: 'Times New Roman', Times, serif;
     width: 20rem;
-    padding: 5rem;
+    /* padding: 12em 20em; */
+    
 }
 
 /* CONTAINER CLASS */
@@ -88,9 +95,31 @@ ul{
     text-align: center; 
 }
 
-/* BUTTON PART */
-.button-container{
-    position: relative;
-    width: 20rem;
-    margin: 20rem;
+#message{
+    width: 100%;
+    min-height: 100px;
+    max-height: 200px;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.address span, .phone_contact, .email_contact {
+    color: green;
+    font-size: 1.50em;
+    
+}
+
+a:active{
+color: green;
+}
+
+a:hover{
+border-color: red;
+}
+
+a:visited{
+color: greenyellow;
 }

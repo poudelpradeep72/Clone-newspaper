@@ -7,12 +7,24 @@
 
 /* BODY PART */
 body{
-    height: 150rem;
-    max-width: 100rem;
-    margin: 0rem 20rem;
+    min-height: 100vh;
+    max-width: 800px;
+    margin: 0rem auto;
     border-left: 0.50em solid rgba(0, 0, 0, 0.932);
     border-right: 0.50em solid black; 
     padding: 1rem;
+}
+
+/* LIST  */
+.list_item{
+    display: flex;
+    font-size: 3rem;
+    color: rebeccapurple;
+    font-family: 'Times New Roman', Times, serif;
+    border-style: ridge;
+    justify-content: space-around;
+    background-color: skyblue;
+    margin: 0rem 0re 0rem 5rem;    
 }
 
 /* A TAG */
@@ -41,7 +53,7 @@ img{
 
 /* ARTICLE NEWS */
 .article_news{
-    font-size: 2em;
+    font-size: 1rem;
     text-align: justify;
     margin:1em 1em 1.50em 1em ;
 }
